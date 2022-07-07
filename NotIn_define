@@ -1,0 +1,4 @@
+# %in% is used to determine if an element is part of a vector. ! is typically used as a negator in R however %!in% does not work for not in
+# instead create a simple function for not in
+
+`%notin%` <- Negate(`%in%`)
